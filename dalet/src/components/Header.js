@@ -7,11 +7,11 @@ const Header =()=>{
             <header>
               <nav className="grid">
                 <ul>
-                    <li><a href="#mision-vision">Quien soy</a></li>
-                    <li><a href="#quien-soy">Mis servicios</a></li>
-                    <li><a href="#cursos">Dalet</a></li>
-                    <li><a href="#proximamente">experiencia</a></li>
-                    <li><a href="#donde-estoy">contactame</a></li>
+                    <li><a href="#quien-soy">Quien soy</a></li>
+                    <li><a href="#mis-servicios">Mis servicios</a></li>
+                    <li><a href="#home">Dalet</a></li>
+                    <li><a href="#experencia">experiencia</a></li>
+                    <li><a href="#contactame">contactame</a></li>
                 </ul>
               </nav>
             </header>
