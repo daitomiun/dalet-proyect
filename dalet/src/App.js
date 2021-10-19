@@ -1,3 +1,5 @@
+import Experiencia from './components/Experiencia';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Logo from './components/Logo';
 import QuienSoy from './components/Quien-soy';
@@ -11,6 +13,8 @@ function App() {
     <Logo/>
     <QuienSoy/>
     <Servicio/>
+    <Experiencia/>
+    <Footer/>
    </>
   );
 }
