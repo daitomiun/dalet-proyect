@@ -1,4 +1,5 @@
 import React from "react";
+import logoMateo from '../assets/logo-mateo.svg'
 
 const Footer = () => {
   return (
@@ -17,7 +18,12 @@ const Footer = () => {
           </a>
         </h1>
       </div>
-      <footer></footer>
+      <footer>
+        <h2>logo design, web design and web development by</h2>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          <img src={logoMateo} alt="" />
+        </a>
+      </footer>
     </>
   );
 };

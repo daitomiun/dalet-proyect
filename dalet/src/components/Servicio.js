@@ -27,6 +27,13 @@ const Servicio=()=>{
             <p>hi</p>
           </div>
         </div>
+        <div className="card">
+          <img src="#" alt="" className="photo" />
+          <div className="box">
+            <h2>hola</h2>
+            <p>hi</p>
+          </div>
+        </div>
       </div>
     </>
   );
