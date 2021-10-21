@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-const Experiencia= ()=>{
-  return(
+
+const Experiencia = () => {
+  return (
     <>
-      <div className="background red">
-
-      </div>
+      <div className="background red"></div>
+      
     </>
-  )
-}
+  );
+};
 
 export default Experiencia;
