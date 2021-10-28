@@ -120,40 +120,45 @@ const Experiencia = () => {
         <h1>experiencia</h1>
         <div className="carousel">
           <button className="carousel__button carousel__button--left is-hidden">
-            <img className="left" srcset={button} alt=""></img>
+            {/* <img className="left" srcset={button} alt=""></img> */}
+            <div className="left"></div>
           </button>
 
           <div className="carousel__track-container">
             <ul className="carousel__track">
               <li className="carousel__slide current-slide">
-                <img
+                {/* <img
                   className="carousel__image"
                   src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
                   alt=""
                   srcset=""
-                />
+                /> */}
+                <div className="exp__card">
+                  <div className="exp__card--image"></div>
+                  <h3>experience card</h3>
+                  <p></p>
+                </div>
               </li>
               <li className="carousel__slide">
-                <img
-                  className="carousel__image"
-                  src="https://www.gettyimages.es/gi-resources/images/500px/983794168.jpg"
-                  alt=""
-                  srcset=""
-                />
+                <div className="exp__card">
+                  <div className="exp__card--image"></div>
+                  <h3>experience card</h3>
+                  <p></p>
+                </div>
               </li>
               <li className="carousel__slide">
-                <img
-                  className="carousel__image"
-                  srcSet=""
-                  alt=""
-                  srcset=""
-                />
+                <div className="exp__card">
+                  <div className="exp__card--image"></div>
+                  <h3>experience card</h3>
+                  <p></p>
+                </div>
               </li>
             </ul>
           </div>
 
           <button className="carousel__button carousel__button--right">
-            <img className="right" srcSet={button} alt=""></img>
+            {/* <img className="right" srcSet={button} alt=""></img> */}
+            <div className="right"></div>
           </button>
 
           <div className="carousel__nav">
