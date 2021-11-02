@@ -67,8 +67,9 @@
       margin: 0;
       list-style: none;
       position: relative;
+      overflow-x: initial;
       height: 100%;
-      transition: transform 150ms ease-in;
+      transition: transform 1500ms ease-in-out;
     }
     .carousel__slide {
       position: absolute;
@@ -116,7 +117,49 @@
       display: none;
     }
 
-    //responsive
+   
+
+
+
+
+    // experience card info
+
+    .exp__card--image{
+      display: grid;
+      grid-template-columns:  1fr 1fr;
+      grid-gap: 15px;
+      margin: 30px 20px;
+      grid-template-areas: 
+        "img-1 img-1" 
+        "img-2 img-3" 
+        ;
+
+
+
+
+      img{
+        background: white;
+        border: black 3px solid;
+        height: 140px;
+        width: 100%;
+        border-radius: 20px;
+      }
+      .img-1{
+        grid-area: img-1;
+      }
+      .img-2{
+        grid-area: img-2;
+        
+      }
+      .img-3{
+        grid-area: img-3;
+        
+      }
+      
+    }
+
+
+     //responsive
 
     
     @media (min-width: 900px) {
@@ -129,6 +172,21 @@
       .left,
       .right {
         margin-top: 0;
+      }
+
+      .exp__card--image{
+        grid-template-columns:  60% 40%;
+        grid-template-areas: 
+        "img-1 img-2" 
+        "img-1 img-3" 
+        ;
+        padding: 0 14px 0 0;
+        .img-1{
+          height: 300px;
+        }
+        // .img-2, .img-3{
+        //   width: 180px;
+        // }
       }
     }
   }

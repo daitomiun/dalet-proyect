@@ -1,5 +1,4 @@
 import React from "react";
-import button from "../assets/right-arrow.png";
 
 
 const Experiencia = () => {
@@ -120,35 +119,40 @@ const Experiencia = () => {
         <h1>experiencia</h1>
         <div className="carousel">
           <button className="carousel__button carousel__button--left is-hidden">
-            {/* <img className="left" srcset={button} alt=""></img> */}
             <div className="left"></div>
           </button>
 
           <div className="carousel__track-container">
             <ul className="carousel__track">
               <li className="carousel__slide current-slide">
-                {/* <img
-                  className="carousel__image"
-                  src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-                  alt=""
-                  srcset=""
-                /> */}
                 <div className="exp__card">
-                  <div className="exp__card--image"></div>
+                  <div className="exp__card--image">
+                    <img className="img-1" src="" alt="" />
+                    <img className="img-2" src="" alt="" />
+                    <img className="img-3" src="" alt="" />
+                  </div>
                   <h3>experience card</h3>
                   <p></p>
                 </div>
               </li>
               <li className="carousel__slide">
                 <div className="exp__card">
-                  <div className="exp__card--image"></div>
+                  <div className="exp__card--image">
+                    <img className="img-1" src="" alt="" />
+                    <img className="img-2" src="" alt="" />
+                    <img className="img-3" src="" alt="" />
+                  </div>
                   <h3>experience card</h3>
                   <p></p>
                 </div>
               </li>
               <li className="carousel__slide">
                 <div className="exp__card">
-                  <div className="exp__card--image"></div>
+                  <div className="exp__card--image">
+                    <img className="img-1" src="" alt="" />
+                    <img className="img-2" src="" alt="" />
+                    <img className="img-3" src="" alt="" />
+                  </div>
                   <h3>experience card</h3>
                   <p></p>
                 </div>
